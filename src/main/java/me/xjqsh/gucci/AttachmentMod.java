@@ -23,6 +23,6 @@ public class AttachmentMod {
 
     private static void registerDefaultExtraGunPack() {
         String jarDefaultPackPath = String.format("/assets/%s/custom/%s", MOD_ID, DEFAULT_PACK_NAME);
-        ResourceManager.registerExtraGunPack(AttachmentMod.class, jarDefaultPackPath);
+        ResourceManager.registerExportResource(AttachmentMod.class, jarDefaultPackPath);
     }
 }
